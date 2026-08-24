@@ -205,7 +205,19 @@ The live UI includes a dark graph-workbench aesthetic with:
 - readiness ring and selectable skill picker
 - connected-node relationship view
 
-Add deployment screenshots here when presenting the assignment.
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/ff02bb9b-d4fa-4de0-9fa1-4b993281d5d1" />
+
+<img width="1917" height="928" alt="image" src="https://github.com/user-attachments/assets/0b037904-46d4-40a2-a63c-35222c511658" />
+
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/b29c5a38-2bbd-4a0b-860a-b401a3b0a91c" />
+
+<img width="1917" height="793" alt="image" src="https://github.com/user-attachments/assets/3df7c0d2-4d00-4fb2-8266-b66c9026d9d7" />
+
+<img width="1917" height="931" alt="image" src="https://github.com/user-attachments/assets/c47c76e6-5586-4457-aef6-665602a6ea15" />
+
+<img width="1917" height="918" alt="image" src="https://github.com/user-attachments/assets/2876bcdf-99d9-45a1-9eab-3e098cb3fe90" />
+
+<img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/9ec0b0ad-2b26-4b15-87fc-bdf4a5fa2ab1" />
 
 ## Assignment requirements checklist
 
