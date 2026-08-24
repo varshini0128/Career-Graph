@@ -109,6 +109,40 @@ FastAPI's interactive API documentation is available at `http://localhost:8000/d
 
 Install the JavaScript dependencies and start the existing Vite development server. The frontend defaults to `http://localhost:8000`; set `VITE_API_URL` for a deployed backend.
 
+### Install Dependencies
+
+From the project root, run:
+
+```bash
+npm install
+```
+
+### Start the Development Server
+
+Run:
+
+```bash
+npm run dev
+```
+
+The Vite development server will start at:
+
+```text
+http://localhost:5173
+```
+
+Open the URL in your browser to access CareerGraph.
+
+### Frontend Environment Variable
+
+The frontend communicates with the FastAPI backend through the `VITE_API_URL` environment variable.
+
+For local development, the frontend uses:
+
+```env
+VITE_API_URL=http://localhost:8000
+```
+
 ## Main Cypher queries
 
 All user-controlled values are passed as parameters. No input is concatenated into Cypher.
