@@ -22,11 +22,12 @@ class Settings(BaseSettings):
     api_title: str = "CareerGraph API"
     api_version: str = "1.0.0"
 
-    cors_origins: list[str] = [
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:4173",
-    ]
+cors_origins: list[str] = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:4173",
+    "https://verdant-maamoul-f10313.netlify.app",
+]
 
 
 @lru_cache
