@@ -127,10 +127,12 @@ OPTIONAL MATCH (s)-[:IMPLEMENTED_WITH]->(t:Technology)
 OPTIONAL MATCH (s)<-[:TEACHES]-(c:Course)
 OPTIONAL MATCH (s)<-[:DEMONSTRATES]-(p:Project)
 OPTIONAL MATCH (j)-[:RELATED_TO]->(r:Job)
-WITH relationships(path) AS base_rels, nodes(path) AS base_nodes,
-     collect(DISTINCT t) AS techs, collect(DISTINCT c) AS courses,
-     collect(DISTINCT p) AS projects, collect(DISTINCT r) AS related
-RETURN base_nodes, base_rels, techs, courses, projects, related
+WITH nodes(path) AS base_nodes,
+     collect(DISTINCT t) AS techs,
+     collect(DISTINCT c) AS courses,
+     collect(DISTINCT p) AS projects,
+     collect(DISTINCT r) AS related
+RETURN base_nodes, techs, courses, projects, related
 """
 
 # --- Health ----------------------------------------------------------------
